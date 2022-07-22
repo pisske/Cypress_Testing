@@ -28,11 +28,8 @@ describe("Verify checkboxes via webdriveruni", () => {
   it("check muliple checkboxes", () => {
     cy.visit("http://www.webdriveruniversity.com");
     cy.get("#dropdown-checkboxes-radiobuttons");
-    cy.get("input[type='checkbox]").check([
-      "option-1",
-      "option-2",
-      "option-3",
-      "option-4",
-    ]);
+    cy.get("input[type='checkbox]")
+      .check(["option-1", "option-2", "option-3", "option-4"])
+      .should("be.checked");
   });
 });
