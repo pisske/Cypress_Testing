@@ -4,9 +4,12 @@
   "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 30000,
   "ignoreTestFiles": "**/other/*",
-
+  "videosFolder": "cypress/videos/testExecutionVides",
+  "viewportHeight": 1080,
+  "viewPortWidth": 1921,
   "env": {
     "webdriveruni_homepage": "http://www.webdriveruniversity.com",
     "first_name": "sarah"
-  }
+  },
+  "projectId": "uidcwn"
 }

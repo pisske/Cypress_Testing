@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "trigerAllTests-headless": "npx cypress run",
+    "triggerAllTest-headed": "npx cypress run --headed",
+    "triggerAllTest-chrome": "npx cypress run --browser chrome",
+    "triggerAllTest-dashboard": "npx cypress run --record --key"
   },
   "author": "",
   "license": "ISC",
