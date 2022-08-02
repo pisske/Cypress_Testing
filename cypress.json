@@ -11,5 +11,9 @@
     "webdriveruni_homepage": "http://www.webdriveruniversity.com",
     "first_name": "sarah"
   },
-  "projectId": "uidcwn"
+  "projectId": "uidcwn",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "repoter-config.json"
+  }
 }
