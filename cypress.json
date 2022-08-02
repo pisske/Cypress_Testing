@@ -4,7 +4,11 @@
   "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 30000,
   "ignoreTestFiles": "**/other/*",
-  "videosFolder": "cypress/videos/testExecutionVides",
+  "videosFolder": "cypress/videos/testExecutionVideos",
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
   "viewportHeight": 1080,
   "viewPortWidth": 1921,
   "env": {
